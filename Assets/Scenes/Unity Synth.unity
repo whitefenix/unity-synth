@@ -437,6 +437,7 @@ GameObject:
   - component: {fileID: 1020596219}
   - component: {fileID: 1020596218}
   - component: {fileID: 1020596220}
+  - component: {fileID: 1020596221}
   m_Layer: 0
   m_Name: Play Sinewave
   m_TagString: Untagged
@@ -456,8 +457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab49979ee381a5c4983191906d4f63d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Frequency: 10581
-  Frequency2: 0
+  Frequency: 357
+  Frequency2: 1
   SampleRate: 44100
   WaveLengthSeconds: 2
 --- !u!4 &1020596219
@@ -482,14 +483,36 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020596217}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70266c2199bac8a44b2836a9ea7a4287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Frequency: 100
+  Frequency: 357
   SampleRate: 44100
-  WaveLengthSeconds: 2
+--- !u!114 &1020596221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020596217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0e04dc4466cb74394ac7c9217a5eb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SampleRate: 44100
+  Notes:
+  - Frequency: 357
+    Ampltiude: 1
+    Phase: 0
+  - Frequency: 700
+    Ampltiude: 0.5
+    Phase: 1
+  - Frequency: 550
+    Ampltiude: 0.1
+    Phase: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
