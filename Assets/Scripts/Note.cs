@@ -3,7 +3,7 @@ using System;
 [Serializable]
 public struct Note
 {
-    public int Frequency;
+    public float Frequency;
     public float Ampltiude;
     public float Phase;
 }

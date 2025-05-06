@@ -43,11 +43,11 @@ public class PlayWaveFromData : MonoBehaviour
             }
 
             _timeIndex++;
-
-            if (_timeIndex >= SampleRate)
-            {
-                _timeIndex = 0;
-            }
+            
+            // if (_timeIndex >= SampleRate)
+            // {
+            //     _timeIndex = 0;
+            // }
         }
     }
 }

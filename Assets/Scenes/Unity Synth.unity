@@ -504,15 +504,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SampleRate: 44100
   Notes:
-  - Frequency: 357
+  - Frequency: 130.81
     Ampltiude: 1
     Phase: 0
-  - Frequency: 700
-    Ampltiude: 0.5
-    Phase: 1
-  - Frequency: 550
-    Ampltiude: 0.1
-    Phase: 2
+  - Frequency: 164.81
+    Ampltiude: 1
+    Phase: 0
+  - Frequency: 196
+    Ampltiude: 1
+    Phase: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
